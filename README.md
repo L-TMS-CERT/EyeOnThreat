@@ -83,7 +83,7 @@ Services Example:
 
     info.getCategories() # Returns a list of Category and Subcategory that can be used to filter a csv feed
 
-USAGE LIMITATION
+USAGE LIMITATIONS
 ------------
   
 Documentation
