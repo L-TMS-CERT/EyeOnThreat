@@ -4,9 +4,10 @@ EyeOnThreat™ gives feed or API access to a relevant part of Cyber Threat Intel
 
 * Lutech ThreatOculus™ threat researchers and analysts team
 * Lutech ThreatCure™ breach detection and incident response team
-* Lutech ethical hacking and vulnerability research team.
+* Lutech ethical hacking and vulnerability research team
+* Other multiple open and private sources is available 
 
-Information coming from other multiple open and private sources is available through EyeOnThreat™. The possibility to access a contextualized and enriched database of threats through a single and reliable channel is a fundamental element in a cyber security strategy. Knowledge of where risks are created and evolve, is essential in a process of verification and validation, usally done performed by structures facilities like SOCs and CERTs. Is a service gathering, classifying, enriching and distributing ot giving access to various types of intelligence information, collected by multiple and non-homogenous sources, related to consolidated or emerging cyber threats. 
+The possibility to access a contextualized and enriched database of threats through a single and reliable channel is a fundamental element in a cyber security strategy. Knowledge of where risks are created and evolve, is essential in a process of verification and validation, usally done performed by structures facilities like SOCs and CERTs. Is a service gathering, classifying, enriching and distributing ot giving access to various types of intelligence information, collected by multiple and non-homogenous sources, related to consolidated or emerging cyber threats. 
 
 Project home page: https://www.eyeonthre.at
 
