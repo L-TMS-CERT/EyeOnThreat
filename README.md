@@ -1,11 +1,11 @@
 
 # EyeOnThreat&trade;
-EyeOnThreat™ gives feed or API access to a relevant part of Cyber Threat Intelligence Information gathered, analyzed and released by:
+EyeOnThreat™ provides Feed or API access to a relevant part of Cyber Threat Intelligence Information gathered, analyzed and released by:
 
 * Lutech ThreatOculus™ threat researchers and analysts team
 * Lutech ThreatCure™ breach detection and incident response team
 * Lutech ethical hacking and vulnerability research team
-* Other multiple open and private sources is available 
+* Multiple open and private sources
 
 The possibility to access a contextualized and enriched database of threats through a single and reliable channel is a fundamental element in a cyber security strategy. Knowledge of where risks are created and evolve, is essential in a process of verification and validation, usally done performed by structures facilities like SOCs and CERTs. Is a service gathering, classifying, enriching and distributing ot giving access to various types of intelligence information, collected by multiple and non-homogenous sources, related to consolidated or emerging cyber threats. 
 
