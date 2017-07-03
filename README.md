@@ -97,6 +97,10 @@ To use EyeOnThreat Python library:
 | Month         | From now to 00:00 of first day of current month|
 
 
+    feed.getFeed("Last7d") # Retrive All indicator in the last 7 days
+    feed.getFeedEntity("ip","Last1h") # Retrive IP Type indicator for last 1 hour
+
+
 > **Search Threat Information**
 
     hunting.searchIPv4("value") # Search Information about IP
