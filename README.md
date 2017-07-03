@@ -95,11 +95,9 @@ Services Example:
 USAGE LIMITATIONS
 ------------
  
- > Rate Limit
- The API rate limit is set to 1 requests per second. If this limit is exceeded, the request is rejected.
+* **Rate Limit**: The API rate limit is set to 1 requests per second. If this limit is exceeded, the request is rejected.
   
- > Query Limit
- Free accounts have a queries limit set to 100 queries per day.Exceeding this limit the account is blocked.
+* **Query Limit**: Free accounts have a queries limit set to 100 queries per day.Exceeding this limit the account is blocked.
   
   
 Documentation
