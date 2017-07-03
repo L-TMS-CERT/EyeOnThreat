@@ -37,7 +37,8 @@ Hunting mode provides the possibility to search for information and indicators s
 Requirements
 ------------
 
-To use EyeOnThreat you need to have a valid API token. You can request a free token with usage limits here . 
+To use EyeOnThreat you need to have a valid API token. You can request a free token with usage limits here https://www.eyeonthre.at/site/#try .
+
 To request a full access to api services contact us at info@lutech[.]it
 
 Usage
