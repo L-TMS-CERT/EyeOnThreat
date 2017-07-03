@@ -24,7 +24,6 @@ EyeOnThreat&trade; is able to extract a number of entities used to contextualize
 * **Malware Sample**: File recognized as malicious and related to old/new threats or exploit kits 
 * **Exploit Kit**: Up-to-date informations about exploit kits 
 
-
 RestFull API
 ------------
 The access to the information present in the Global Threat Database is guaranteed in a rapid and reliable way by a RESTful API system:
@@ -41,6 +40,13 @@ To use EyeOnThreat Python library:
 
     git clone https://github.com/L-TMS-CERT/EyeOnThreat.git
     cd eyeonthreat
+
+Requirements
+------------
+
+To use EyeOnThreat you need to have a valid API token. You can request a free token with usage limits here . 
+To request a full access to api services contact us at info@lutech[.]it
+
 
 Usage Example
 ------------
