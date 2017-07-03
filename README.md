@@ -96,14 +96,13 @@ Services Example:
 
     info.getCategories() # Returns a list of Category and Subcategory that can be used to filter a csv feed
 
-USAGE LIMITATIONS
+Usage Limitatons
 ------------
  
 * **Rate Limit**: The API rate limit is set to 1 requests per second. If this limit is exceeded, the request is rejected.
   
-* **Query Limit**: Free accounts have a queries limit set to 100 queries per day.Exceeding this limit the account is blocked.
-  
-  
+* **Query Limit**: Free accounts have a queries limit set to 100 queries per day.Exceeding this limit will result in blocked account.
+    
 Documentation
 -------------
 Full API Documentation is available at https://www.eyeonthre.at/site/api.html .
