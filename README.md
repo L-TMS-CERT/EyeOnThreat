@@ -7,7 +7,7 @@ EyeOnThreat™ provides Feed or API access to a relevant part of Cyber Threat In
 * Lutech ethical hacking and vulnerability research team
 * Multiple open and private sources
 
-The possibility to access a contextualized and enriched database of threats through a single and reliable channel is a fundamental element in a cyber security strategy. Knowledge of where risks are created and evolve, is essential in a process of verification and validation, usally done performed by structures facilities like SOCs and CERTs. Is a service gathering, classifying, enriching and distributing ot giving access to various types of intelligence information, collected by multiple and non-homogenous sources, related to consolidated or emerging cyber threats. 
+The possibility to access a contextualized and enriched database of threats through a single and reliable channel is a fundamental element in a cyber security strategy. Knowledge of where risks are created and evolve, is essential in a process of verification and validation, usally performed by structures facilities like SOCs and CERTs. It's a service for gathering, classifying, enriching and distributing or giving access to various types of intelligence information, collected by multiple and non-homogenous sources, related to consolidated or emerging cyber threats. 
 
 Project home page: https://www.eyeonthre.at
 
@@ -17,15 +17,15 @@ Entity
 EyeOnThreat&trade; is able to extract a number of entities used to contextualize and classify cyber threat intelligence information. Each single information is enriched, classified and transformed to provide more details that can be used as an Indicator of Compromise (IoC) and more generally as actionable intelligence. Every collected data is saved in a single location represented by the EyeOnThreat Global Threat Repository and made available throught EyeOnThreat&trade; Services: 
 
 * **IP**: IP addresses referable to threats and/or malicious actors
-* **Domain**: Domains used to host and distribute malware, unreliable domains
-* **URL**: URLs known as phishing sites, websites that hosts Exploit Kits
+* **Domain**: Domains used to host and distribute malware, unreliable domains or involved in other threats
+* **URL**: URLs known as phishing sites, websites that hosts Exploit Kits or involved in other threats
 * **E-mail**: Emails used for spam, phishing or malware distribution campaigns
 * **User Credential**: Compromised emails or accounts 
-* **Credit Card**: Stolen credit cards that are sold on blackmarkets or published on forums
+* **Credit Card**: Stolen credit cards that are sold on blackmarkets, published on forums or discovered in other sources
 * **Malware Sample**: File recognized as malicious and related to old/new threats or exploit kits 
 * **Exploit Kit**: Up-to-date informations about exploit kits 
 
-RestFull API
+RestFul API
 ------------
 The access to the information present in the Global Threat Database is guaranteed in a rapid and reliable way by a RESTful API system:
 
