@@ -34,22 +34,18 @@ Feed mode provides access to a dataset of information in CSV format, useful for 
 * **Cyber Threat Hunting**: 
 Hunting mode provides the possibility to search for information and indicators stored in the database. Through this mode it is possible to investigate on a given entity among those stored, looking for clues useful to detect threats.
 
-Usage
-------------
-To use EyeOnThreat Python library:
-
-    git clone https://github.com/L-TMS-CERT/EyeOnThreat.git
-    cd eyeonthreat
-
 Requirements
 ------------
 
 To use EyeOnThreat you need to have a valid API token. You can request a free token with usage limits here . 
 To request a full access to api services contact us at info@lutech[.]it
 
-
-Usage Example
+Usage
 ------------
+To use EyeOnThreat Python library:
+
+    git clone https://github.com/L-TMS-CERT/EyeOnThreat.git
+
 
 Import Library:
 
