@@ -49,11 +49,11 @@ To use EyeOnThreat Python library:
     git clone https://github.com/L-TMS-CERT/EyeOnThreat.git
 
 
-Import Library:
+**Import Library**:
 
     import eyeonthreat
 
-Get API Token :
+**Get API Token** :
 
 > NOTE: This method allow you to retrive the TOKEN used by EyeOnThreat&trade;.
 
@@ -68,15 +68,15 @@ Get API Token :
     }
     
     
-Services Initalization:
+**Services Initalization**:
 
     feed = eyeonthreat.Feed(token)
     hunting = eyeonthreat.Hunting(token)
     info = eyeonthreat.Info(token)
 
-Services Example:
+**Services Example**:
 
-> Retrive Threat Feed
+> **Retrive Threat Feed**
 
     feed.getFeed() # Retrive All indicator for the last 24h
     feed.getFeedEntity("ip") # Retrive IP Type indicator for the last 24h
@@ -84,7 +84,20 @@ Services Example:
     feed.getFeedCategory("ip","Malware") # Retrive Malware IP Type indicator for the last 24h 
     feed.getFeedSubCategory("ip","Malware","CnC") # Retrive Malware IP Type indicator for the last 24h where subcategory is CnC
     
-> Search Threat Information
+> NOTE: You can change the time range choosing one of the following:
+
+| Time Range    | Description                                    |
+| ------------- | --------------                                 |
+| Last1h        | Last Hour                                      |
+| Last24h       | Last 24 Hours (Default Range)                  |
+| Last7d        | Last 7 days                                    |
+| Last30d       | Last 30 days                                   |
+| Today         | From now to 00:00 of current day               |
+| Week          | From now to 00:00 of first day of current week |
+| Month         | From now to 00:00 of first day of current month|
+
+
+> **Search Threat Information**
 
     hunting.searchIPv4("value") # Search Information about IP
     hunting.searchURL("value") # Search Information about Domain
@@ -92,7 +105,7 @@ Services Example:
     hunting.searchHash("value") # Search Information about HASH
     hunting.searchEmail("value") # Search Information about EMAIL
    
-> Info 
+> **Info**
 
     info.getCategories() # Returns a list of Category and Subcategory that can be used to filter a csv feed
 
