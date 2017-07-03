@@ -18,19 +18,22 @@ EyeOnThreat&trade; is able to extract a number of entities used to contextualize
 * **IP**: IP addresses referable to threats and/or malicious actors
 * **Domain**: Domains used to host and distribute malware, unreliable domains
 * **URL**: URLs known as phishing sites, websites that hosts Exploit Kits
-* **E-mail**: Emails used for spam or phishing campaigns, compromised email accounts, email used to distribute malspam
+* **E-mail**: Emails used for spam, phishing or malware distribution campaigns
+* **User Credential**: Compromised emails or accounts 
 * **Credit Card**: Stolen credit cards that are sold on blackmarkets or published on forums
-* **Hash**: File recognized as malicious and related to old/new threats or exploit kits
+* **Malware Sample**: File recognized as malicious and related to old/new threats or exploit kits 
+* **Exploit Kit**: Up-to-date informations about exploit kits 
+
 
 RestFull API
 ------------
 The access to the information present in the Global Threat Database is guaranteed in a rapid and reliable way by a RESTful API system:
 
 * **Cyber Threat Feed**: 
-Feed mode provides access to a dataset of information in CSV format, useful for the classification and prioritization of threats in automated detection and blocking mechanisms
+Feed mode provides access to a dataset of information in CSV format, useful for the classification and prioritization of threats in automated detection and blocking mechanisms.
 
 * **Cyber Threat Hunting**: 
-Hunting mode provides the possibility to search for information and indicators present stored in the database. Through this mode it is possible to investigate on a given entity among those stored, looking for clues useful to detect threats.
+Hunting mode provides the possibility to search for information and indicators stored in the database. Through this mode it is possible to investigate on a given entity among those stored, looking for clues useful to detect threats.
 
 Installation
 ------------
