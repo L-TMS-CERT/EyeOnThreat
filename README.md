@@ -14,7 +14,7 @@ Project home page: https://www.eyeonthre.at
 Entity
 ------------
 
-EyeOnThreat&trade; is able to extract a number of entities used to contextualize and classify cyber threat intelligence information. Each single information is enriched, classified and transformed to provide more details that can be used as an Indicator of Compromise (IoC) and more generally as actionable intelligence. Every collected data is saved in a single location represented by the EyeOnThreat Global Threat Repository and made available throught EyeOnThreat&trade; Services: 
+EyeOnThreat&trade; is able to extract a number of entities used to contextualize and classify cyber threat intelligence information. Each single information is enriched, classified and transformed to provide more details that can be used as an Indicator of Compromise (IoC) and more generally as actionable intelligence. Every collected data is saved in a single location, the EyeOnThreat Global Threat Repository and made available throught EyeOnThreat&trade; Services: 
 
 * **IP**: IP addresses referable to threats and/or malicious actors
 * **Domain**: Domains used to host and distribute malware, unreliable domains or involved in other threats
