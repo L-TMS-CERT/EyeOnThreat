@@ -1,13 +1,13 @@
 
-# EyeOnThreat
-EyeOnThreat is a service to gathering, classify, enrich and distribute or give access to various types of intelligence information, collected by multiple and non-homogeneous sources, related to consolidated or emerging cyber threats
+# EyeOnThreat&trade;
+EyeOnThreat&trade; is a service to gathering, classify, enrich and distribute or give access to various types of intelligence information, collected by multiple and non-homogeneous sources, related to consolidated or emerging cyber threats
 
 Project home page: https://www.eyeonthre.at
 
 Entity
 ------------
 
-EyeOnThreat is able to extract a number of entities used to contextualize and classify cyber threat intelligence information. Each single information is enriched, classified and transformed to provide more details that can be used as an Indicator of Compromise (IoC) and more generally as actionable intelligence. Every collected data is saved in a single location represented by the EyeOnThreat Global Threat Repository and made available throught EyeOnThreat Services: 
+EyeOnThreat&trade; is able to extract a number of entities used to contextualize and classify cyber threat intelligence information. Each single information is enriched, classified and transformed to provide more details that can be used as an Indicator of Compromise (IoC) and more generally as actionable intelligence. Every collected data is saved in a single location represented by the EyeOnThreat Global Threat Repository and made available throught EyeOnThreat&trade; Services: 
 
 * **IP**: IP addresses referable to threats and/or malicious actors
 * **Domain**: Domains used to host and distribute malware, unreliable domains
