@@ -14,7 +14,7 @@ EyeOnThreat&trade; is able to extract a number of entities used to contextualize
 * **URL**: URLs known as phishing sites, websites that hosts Exploit Kits
 * **E-mail**: Emails used for spam or phishing campaigns, compromised email accounts, email used to distribute malspam
 * **Credit Card**: Stolen credit cards that are sold on blackmarkets or published on forums
-* **Hash**: File recognized as malicious and related to old and new threats
+* **Hash**: File recognized as malicious and related to old/new threats or exploit kits
 
 RestFull API
 ------------
