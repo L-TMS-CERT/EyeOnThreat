@@ -7,7 +7,7 @@ EyeOnThreat™ provides Feed or API access to a relevant part of Cyber Threat In
 * Lutech ethical hacking and vulnerability research team
 * Multiple open and private sources
 
-The possibility to access a contextualized and enriched database of threats through a single and reliable channel is a fundamental element in a cyber security strategy. Knowledge of where risks are created and evolve, is essential in a process of verification and validation, usally performed by structures facilities like SOCs and CERTs. It's a service for gathering, classifying, enriching and distributing or giving access to various types of intelligence information, collected by multiple and non-homogenous sources, related to consolidated or emerging cyber threats. 
+The possibility to access a contextualized and enriched database of threats through a single and reliable channel is a fundamental element in a cyber security strategy. Knowledge of where risks are created and evolve is essential in a process of verification and validation, usally performed by structures facilities like SOCs and CERTs. It's a service for gathering, classifying, enriching and distributing or giving access to various types of intelligence information, collected by multiple and non-homogenous sources, related to consolidated or emerging cyber threats. 
 
 Project home page: https://www.eyeonthre.at
 
