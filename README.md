@@ -35,25 +35,25 @@ Feed mode provides access to a dataset of information in CSV format, useful for 
 * **Cyber Threat Hunting**: 
 Hunting mode provides the possibility to search for information and indicators stored in the database. Through this mode it is possible to investigate on a given entity among those stored, looking for clues useful to detect threats.
 
-Installation
+Usage
 ------------
-To install EyeOnThreat Python library:
+To use EyeOnThreat Python library:
 
     git clone https://github.com/L-TMS-CERT/EyeOnThreat.git
-    cd XXXXXXXXXXXXXXXXXXXX
+    cd eyeonthreat
 
 Usage Example
 ------------
 
 Import Library:
 
-    from eyeonthreat import threat_aggregator
+    import eyeonthreat
 
 Get API Token :
 
-> NOTE: This method allow you to retrive the TOKEN used by EyeOnThreat Services.
+> NOTE: This method allow you to retrive the TOKEN used by EyeOnThreat&trade;.
 
-    auth = threat_aggregator.Authentication()
+    auth = eyeonthreat.Authentication()
     auth.getAuthToken(user,passwd)
     
     Response:
@@ -66,9 +66,9 @@ Get API Token :
     
 Services Initalization:
 
-    feed = threat_aggregator.Feed(token)
-    hunting = threat_aggregator.Hunting(token)
-    info = threat_aggregator.Info(token)
+    feed = eyeonthreat.Feed(token)
+    hunting = eyeonthreat.Hunting(token)
+    info = eyeonthreat.Info(token)
 
 Services Example:
 
@@ -94,6 +94,13 @@ Services Example:
 
 USAGE LIMITATIONS
 ------------
+ 
+ > Rate Limit
+ The API rate limit is set to 1 requests per second. If this limit is exceeded, the request is rejected.
+  
+ > Query Limit
+ Free accounts have a queries limit set to 100 queries per day.Exceeding this limit the account is blocked.
+  
   
 Documentation
 -------------
