@@ -2,9 +2,8 @@
 
 ###################################################################################################
 ## _author_ = "Lutech Cyber Threat Intelligence Team"                                            ##
-## _copyright_ = "Copyright 2017, Lutech EyeOnThreat™""                                         ##
+## _copyright_ = "Copyright 2017, Lutech EyeOnThreat™""                                          ##
 ## _version_ = "1.0"                                                                             ##
-## _email_ = "supporto.security-intelligence@lutech.it"                                          ##
 ## _status_ = "Stable"                                                                           ##
 ###################################################################################################
 
