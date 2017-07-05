@@ -86,15 +86,15 @@ To use EyeOnThreat Python library:
     
 > NOTE: You can change the time range choosing one of the following:
 
-| Time Range    | Description                                    |
-| ------------- | --------------                                 |
-| Last1h        | Last Hour                                      |
-| Last24h       | Last 24 Hours (Default Range)                  |
-| Last7d        | Last 7 days                                    |
-| Last30d       | Last 30 days                                   |
-| Today         | From now to 00:00 of current day               |
-| Week          | From now to 00:00 of first day of current week |
-| Month         | From now to 00:00 of first day of current month|
+| Time Range    | Description                                     |
+| ------------- | --------------                                  |
+| Last1h        | Last Hour                                       |
+| Last24h       | Last 24 Hours (Default Range)                   |
+| Last7d        | Last 7 days                                     |
+| Last30d       | Last 30 days                                    |
+| Today         | From 00:00 of current day to now                |
+| Week          | From 00:00 of first day of current week to now  |
+| Month         | From 00:00 of first day of current month to now |
 
 
     feed.getFeed("Last7d") # Retrive All indicator in the last 7 days
