@@ -46,16 +46,22 @@ Usage
 ------------
 To use EyeOnThreat Python library:
 
+Download from Git Repo:
+
     git clone https://github.com/L-TMS-CERT/EyeOnThreat.git
+
+OR Install from Pypi:
+
+    pip install eyeonthreat
 
 
 **Import Library**:
 
-    import eyeonthreat
+    from eyeonthreat import eyeonthreat
 
 **Get API Token** :
 
-> NOTE: This method allow you to retrive the TOKEN used by EyeOnThreat&trade;.
+> NOTE: This method allow you to retrieve the TOKEN used by EyeOnThreat&trade;.
 
     auth = eyeonthreat.Authentication()
     auth.getAuthToken(user,passwd)
@@ -76,13 +82,13 @@ To use EyeOnThreat Python library:
 
 **Services Example**:
 
-> **Retrive Threat Feed**
+> **Retrieve Threat Feed**
 
-    feed.getFeed() # Retrive All indicator for the last 24h
-    feed.getFeedEntity("ip") # Retrive IP Type indicator for the last 24h
-    feed.getFeedEntity("url") # Retrive URL Type indicator for the last 24h
-    feed.getFeedCategory("ip","Malware") # Retrive Malware IP Type indicator for the last 24h 
-    feed.getFeedSubCategory("ip","Malware","CnC") # Retrive Malware IP Type indicator for the last 24h where subcategory is CnC
+    feed.getFeed() # Retrieve All indicator for the last 24h
+    feed.getFeedEntity("ip") # Retrieve IP Type indicator for the last 24h
+    feed.getFeedEntity("url") # Retrieve URL Type indicator for the last 24h
+    feed.getFeedCategory("ip","Malware") # Retrieve Malware IP Type indicator for the last 24h 
+    feed.getFeedSubCategory("ip","Malware","CnC") # Retrieve Malware IP Type indicator for the last 24h where subcategory is CnC
     
 > NOTE: You can change the time range choosing one of the following:
 
@@ -97,8 +103,8 @@ To use EyeOnThreat Python library:
 | Month         | From 00:00 of first day of current month to now |
 
 
-    feed.getFeed("Last7d") # Retrive All indicator in the last 7 days
-    feed.getFeedEntity("ip","Last1h") # Retrive IP Type indicator for last 1 hour
+    feed.getFeed("Last7d") # Retrieve All indicator in the last 7 days
+    feed.getFeedEntity("ip","Last1h") # Retrieve IP Type indicator for last 1 hour
 
 
 > **Search Threat Information**
